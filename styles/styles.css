@@ -1,4 +1,20 @@
 
 body {
+  box-sizing: border-box;
   background-color: rgb(45, 45, 45);
+  height: 20em;
+}
+
+div {
+  background-color: aliceblue;
+  height: 100%;
+  border: 3px solid black;
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  flex-basis: auto;
+  height: 20em;
+  width: 50%;
 }
